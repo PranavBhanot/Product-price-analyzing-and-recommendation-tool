@@ -1,0 +1,11 @@
+Use conditional statements (e.g. if/else) to handle exceptions: Since not all web pages have the same HTML structure, some elements may not be present on some pages. To handle this, you can use conditional statements to check if an element exists before trying to extract its contents. For example, you can use the if statement to check if a tag exists before trying to extract its text.
+
+Use generic selectors: Instead of using specific class names or tag names to extract information, you can use more generic selectors that are less likely to change between pages. For example, instead of using the class name product-grid__item to find product items, you can use a more generic selector like li to find all list items.
+
+Use regular expressions to extract data: If the text you want to extract is not contained within a single tag, you can use regular expressions to extract the relevant information. For example, if the product rating is contained within a string like "4.5 out of 5 stars", you can use a regular expression to extract the rating value.
+
+Handle pagination: If the website you are scraping has multiple pages of products, you will need to handle pagination. This can be done by looping through each page and extracting the product information.
+
+Handle different data formats: Some websites may use different formats for the data you want to extract. For example, the price may be listed in a currency other than USD or the rating may be given as a percentage rather than a fraction. To handle this, you can use regular expressions or other methods to convert the data into a consistent format.
+
+By incorporating these techniques, you can create a more robust web scraper that is able to handle a wider range of websites.
