@@ -1,6 +1,11 @@
 # Product-price-analyzing-and-recommendation-tool
 The Product Price Analysis and Recommendation Tool is a Python-based application designed to analyze product prices from online e-commerce websites such as Amazon and Flipkart. This tool provides valuable insights by comparing prices of similar products and recommending an optimum price for new producers and manufacturers to launch their products at. The tool utilizes the Beautiful Soup library for web scraping and analysis.
 
+
+Sample CSV file output
+
+<img width="767" alt="image" src="https://github.com/PranavBhanot/Product-price-analyzing-and-recommendation-tool/assets/74693658/42a8afd0-f7f8-4079-a6dd-723a5329889f">
+
 Features
 Web Scraping: The tool employs web scraping techniques using Beautiful Soup to extract product information, including names, prices, and features, from Amazon and Flipkart.
 
